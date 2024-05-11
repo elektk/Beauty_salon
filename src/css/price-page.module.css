@@ -1,0 +1,77 @@
+:root {
+  --primary-bg: #111111;
+  --primary-tx: #ffffff;
+}
+h2 {
+  font-family: "Garamond";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57px;
+  text-align: center;
+  padding: 80px 0 80px 0;
+  color: var(--primary-tx);
+  background-color: var(--primary-bg);
+}
+.services {
+  display: flex;
+  background-color: var(--primary-bg);
+}
+.content {
+  margin: 0 auto;
+  display: flex;
+  width: 1310px;
+  height: 616px;
+}
+.master {
+  width: 636px;
+  height: 536px;
+  background: url("../assets/image.png");
+}
+.righhtBlock {
+  display: flex;
+  flex-direction: column;
+  width: 660px;
+  align-content: flex-end;
+  flex-wrap: wrap;
+}
+.reverse {
+  display: flex;
+  flex-direction: column;
+  width: 660px;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+.price {
+  display: flex;
+  position: relative;
+  text-align: left;
+  width: 526px;
+  height: 88px;
+  margin-top: 40px;
+}
+.price::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 96%;
+  height: 1px;
+  background-color: var(--primary-tx);
+  opacity: 50%;
+}
+.text {
+  width: 416px;
+  height: 68px;
+}
+.value {
+  width: 120px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  height: 35px;
+}
+.text button {
+  font-family: "Cormorant Garamond";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  padding: 0;
+}

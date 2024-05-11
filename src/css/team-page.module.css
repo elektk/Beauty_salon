@@ -1,0 +1,117 @@
+:root {
+  --primary-bg: #111111;
+  --primary-tx: #ffffff;
+}
+h2 {
+  font-family: "Garamond";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57px;
+  text-align: center;
+  padding: 80px 0 80px 0;
+  color: var(--primary-tx);
+  background-color: var(--primary-bg);
+}
+.services {
+  display: flex;
+  height: 1400px;
+  background-color: var(--primary-bg);
+  position: relative;
+}
+.rectangles {
+  display: flex;
+  position: absolute;
+  height: 1350px;
+  margin: 0 auto;
+  padding-left: 90px;
+  background-color: var(--primary-bg);
+  gap: 44px;
+  flex-wrap: wrap;
+  z-index: 0;
+}
+.rectangle {
+  display: flex;
+  width: 400px;
+  height: 477px;
+  border: 1px solid var(--primary-rc);
+  opacity: 0.5;
+}
+.content {
+  margin: 0 auto;
+  padding: 20px 20px 0 0;
+  display: flex;
+  width: 1310px;
+  height: 1370px;
+  gap: 44px;
+  flex-wrap: wrap;
+}
+.master1 {
+  width: 400px;
+  height: 477px;
+  background: url("../assets/master1.png");
+  z-index: 2;
+}
+.master2 {
+  width: 400px;
+  height: 477px;
+  background: url("../assets/master2.png");
+  z-index: 2;
+}
+.master3 {
+  width: 400px;
+  height: 477px;
+  background: url("../assets/master3.png");
+  z-index: 2;
+}
+.master4 {
+  width: 400px;
+  height: 477px;
+  background: url("../assets/master4.png");
+  z-index: 2;
+}
+.master5 {
+  width: 400px;
+  height: 477px;
+  background: url("../assets/master5.png");
+  z-index: 2;
+}
+.master6 {
+  width: 400px;
+  height: 477px;
+  background: url("../assets/master6.png");
+  z-index: 2;
+}
+.signatures {
+  display: flex;
+  position: absolute;
+  height: 1350px;
+  margin: 0 auto;
+  padding-left: 70px;
+  padding-top: 80px;
+  flex-wrap: wrap;
+  gap: 44px;
+}
+.nameMaster {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  margin: 0;
+  width: 400px;
+  height: 487px;
+  font-family: "Cormorant Garamond";
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 35px;
+}
+.profession {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  margin: 0;
+  width: 400px;
+  height: 520px;
+  font-family: "Cormorant Garamond";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+}

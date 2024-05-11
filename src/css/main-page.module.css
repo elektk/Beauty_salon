@@ -1,0 +1,240 @@
+:root {
+  --primary-bg: #111111;
+  --primary-rc: #cdaa7d;
+  --primary-tx: #ffffff;
+}
+.main {
+  background: url("../assets/bgc.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 780px;
+  width: 100%;
+  display: flex;
+}
+.salon {
+  text-align: center;
+  position: relative;
+  color: #ffffff;
+  width: 600px;
+  height: 258px;
+  margin: auto;
+  font-family: "EB Garamond";
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 86px;
+}
+.about {
+  height: 600px;
+  background-color: var(--primary-bg);
+}
+.about p {
+  width: 856px;
+  height: 170px;
+  text-align: center;
+  margin: auto;
+}
+p {
+  color: var(--primary-tx);
+  font-family: "Cormorant Garamond";
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 35px;
+}
+h2 {
+  margin: auto;
+  text-align: center;
+  padding: 120px 0 60px 0;
+}
+.services {
+  display: flex;
+  height: 982px;
+  background-color: var(--primary-bg);
+  position: relative;
+}
+.rectangles {
+  display: flex;
+  position: absolute;
+  height: 815px;
+  margin: 0 auto;
+  padding-left: 90px;
+  background-color: var(--primary-bg);
+  gap: 44px;
+  flex-wrap: wrap;
+  z-index: 0;
+}
+.rectangle {
+  display: flex;
+  width: 396px;
+  height: 300px;
+  border: 1px solid var(--primary-rc);
+  opacity: 0.5;
+}
+.content {
+  margin: 0 auto;
+  padding: 20px 20px 0 0;
+  display: flex;
+  width: 1296px;
+  height: 832px;
+  gap: 44px;
+  flex-wrap: wrap;
+}
+.cosmetology {
+  width: 396px;
+  height: 300px;
+  background: url("../assets/cosmetology.png");
+  z-index: 2;
+}
+.esthetician {
+  width: 396px;
+  height: 300px;
+  background: url("../assets/esthetician.png");
+  z-index: 2;
+}
+.hairdressing {
+  width: 396px;
+  height: 300px;
+  background: url("../assets/hairdressing.png");
+  z-index: 2;
+}
+.makeUp {
+  width: 396px;
+  height: 300px;
+  background: url("../assets/make-up.png");
+  z-index: 2;
+}
+.manicure {
+  width: 396px;
+  height: 300px;
+  background: url("../assets/manicure.png");
+  z-index: 2;
+}
+.pedicure {
+  width: 396px;
+  height: 300px;
+  background: url("../assets/pedicure.png");
+  z-index: 2;
+}
+.signatures {
+  display: flex;
+  position: absolute;
+  height: 882px;
+  margin: 0 auto;
+  padding-left: 70px;
+  padding-top: 80px;
+  flex-wrap: wrap;
+  gap: 44px;
+}
+.signatures p {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  margin: 0;
+  width: 396px;
+  height: 300px;
+  z-index: 2;
+  font-family: "Garamond";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+}
+.brands {
+  height: 312px;
+  background-color: var(--primary-bg);
+}
+.cosmetics {
+  background: url("../assets/cosmetics.png");
+  width: 1296px;
+  height: 144px;
+  margin: 0 auto;
+}
+.works {
+  height: 1625px;
+  background-color: var(--primary-bg);
+}
+h3 {
+  margin-top: 0;
+  font-family: "Garamond";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57px;
+  text-align: center;
+  color: var(--primary-tx);
+}
+.links {
+  text-align: center;
+}
+.links button:not(:first-child) {
+  margin-left: 60px;
+}
+button {
+  font-family: "Cormorant Garamond";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31px;
+  text-align: center;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: var(--primary-tx);
+}
+button:active {
+  color: var(--primary-rc);
+  text-decoration: underline;
+}
+.photoWorks {
+  width: 1320px;
+  height: 1296px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 27px;
+  padding: 24px 24px 0 0;
+  gap: 24px;
+}
+.work1 {
+  background: url("../assets/work-1.png");
+  width: 416px;
+  height: 416px;
+}
+.work2 {
+  background: url("../assets/work-2.png");
+  width: 416px;
+  height: 416px;
+}
+.work3 {
+  background: url("../assets/work-3.png");
+  width: 416px;
+  height: 416px;
+}
+.work4 {
+  background: url("../assets/work-4.png");
+  width: 416px;
+  height: 416px;
+}
+.work5 {
+  background: url("../assets/work-5.png");
+  width: 416px;
+  height: 416px;
+}
+.work6 {
+  background: url("../assets/work-6.png");
+  width: 416px;
+  height: 416px;
+}
+.work7 {
+  background: url("../assets/work-7.png");
+  width: 416px;
+  height: 416px;
+}
+.work8 {
+  background: url("../assets/work-8.png");
+  width: 416px;
+  height: 416px;
+}
+.work9 {
+  background: url("../assets/work-9.png");
+  width: 416px;
+  height: 416px;
+}
