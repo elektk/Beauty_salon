@@ -62,11 +62,13 @@ h2 {
   width: 416px;
   height: 68px;
 }
+.text p {
+  margin-top: 0;
+}
 .value {
   width: 120px;
-  margin-top: 0;
-  margin-bottom: 10px;
   height: 35px;
+  margin-top: 0;
 }
 .text button {
   font-family: "Cormorant Garamond";

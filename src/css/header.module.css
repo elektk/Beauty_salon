@@ -50,7 +50,7 @@
   text-decoration: none;
   color: var(--primary-tx);
 }
-.header a:hover {
+.header a:active {
   color: var(--primary-rc);
   text-decoration: underline;
 }

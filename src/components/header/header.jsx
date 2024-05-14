@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'
 import styles from '../../css/header.module.css'
 
 
@@ -6,13 +7,13 @@ export default function Header() {
         <>
             <div className={styles.header}>
                 <div className={styles.inst}/>
-                <a href='/'>Главная</a>
-                <a href='/team'>Мастера</a>
-                <a href='/'>Косметика</a>
+                <NavLink className={({isActive})=> isActive ? 'active':''} to='/'>Главная</NavLink>
+                <NavLink to='/team'>Мастера</NavLink>
+                <NavLink to='/cosmetics'>Косметика</NavLink>
                 <div className={styles.logo}/>
-                <a href='/price'>Акции</a>
-                <a href='/'>Отзывы</a>
-                <a href='/contacts'>Контакты</a>
+                <NavLink to='/price'>Акции</NavLink>
+                <NavLink to='/reviews'>Отзывы</NavLink>
+                <NavLink to='/contacts'>Контакты</NavLink>
                 <div className={styles.burger}/>
             </div>
         </>
