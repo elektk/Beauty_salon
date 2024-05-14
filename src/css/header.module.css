@@ -46,11 +46,7 @@
   font-family: "Cormorant Garamond";
   font-size: 18px;
   font-weight: 600;
-  line-height: 23px;
+  line-height: 30px;
   text-decoration: none;
   color: var(--primary-tx);
-}
-.header a:active {
-  color: var(--primary-rc);
-  text-decoration: underline;
 }

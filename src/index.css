@@ -1,9 +1,6 @@
 *{
   box-sizing: border-box;
 }
-:root {
-  --primary-rc: #cdaa7d;
-}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -17,7 +14,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New','EB Garamond',
     monospace;
 }
+.navLink {
+  color: #cdaa7d !important;
+  text-decoration: underline !important;
+}
+
 .active {
-  color: var(--primary-rc);
-  text-decoration: underline;
+  color: #cdaa7d !important;
+  text-decoration: underline !important;
 }
