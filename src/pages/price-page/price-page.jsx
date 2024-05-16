@@ -11,7 +11,7 @@ export default function Price() {
   }, []);
 
   const renderPrice = (price) => (
-    <div className={styles.price} key={price.id}>
+    <div className={styles.price}>
       <div className={styles.text}>
         <p>{price.title}</p>
         <button>+ обработка кончинков волос</button>
@@ -29,8 +29,8 @@ export default function Price() {
         <div className={styles.content}>
           <div className={styles.master} />
           <div className={styles.righhtBlock}>
-            {priceList.slice(0, 4).map((price, index) => (
-              <div key={index}>{renderPrice(price)}</div>
+          {priceList.map((price, index) => (
+              index >= 0 && index < 4 && <div key={index}>{renderPrice(price)}</div>
             ))}
           </div>
         </div>
@@ -38,8 +38,8 @@ export default function Price() {
       <div className={styles.services}>
         <div className={styles.content}>
           <div className={styles.reverse}>
-            {priceList.slice(4, 8).map((price, index) => (
-              <div key={index}>{renderPrice(price)}</div>
+          {priceList.map((price, index) => (
+              index >= 4 && index < 8 && <div key={index}>{renderPrice(price)}</div>
             ))}
           </div>
           <div className={styles.master} />
@@ -49,8 +49,8 @@ export default function Price() {
         <div className={styles.content}>
           <div className={styles.master} />
           <div className={styles.righhtBlock}>
-            {priceList.slice(8, 12).map((price, index) => (
-              <div key={index}>{renderPrice(price)}</div>
+          {priceList.map((price, index) => (
+              index >= 8 && index < 12 && <div key={index}>{renderPrice(price)}</div>
             ))}
           </div>
         </div>
